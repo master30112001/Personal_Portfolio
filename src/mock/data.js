@@ -33,7 +33,7 @@ export const projectsData = [
     img: 'QuickPermitLogo.jpeg',
     title: 'Quick Permit',
     info:
-      'The motive behind our project is to have a hassle-free system to seek permissions from college to simplify the otherwise cumbersome process observed. ',
+      'The motive behind the project is to have a hassle-free system to seek permissions from college to simplify the otherwise cumbersome process observed. ',
     info2:
       'The idea is that students can send permission requests to conduct events in college whereas teachers can approve or reject the requests. Based on this concept there are many other features which have been included.',
     url: 'https://quickpermit.herokuapp.com/',
