@@ -43,8 +43,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'ChatApp.jpeg',
     title: 'Real time Web Chat App',
-    info: '',
-    info2: '',
+    info:
+      'This is a real time web chat app where users can create or join a specific room and have a chat based discussion.This project helped me to learn about how socket.io works and improved my Node.js skills.',
+    info2: 'Tech stack: Nodejs, Socket.io, HTML, CSS ',
     url: 'http://bothikarchatapp.herokuapp.com',
     repo: 'https://github.com/master30112001/node-chat-app', // if no repo, the button will not show up
   },
@@ -52,8 +53,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'TaskManager.jpeg',
     title: 'Task Manger API',
-    info: '',
-    info2: '',
+    info:
+      'This API was implemented to know more about the CRUD operations. Using this API, users can create their accounts and further use all the necessary features for a task-manager.',
+    info2: 'Tech Stack: MongoDB, Node.js, Express.js',
     url: '',
     repo: 'https://github.com/master30112001/task-manager-api', // if no repo, the button will not show up
   },
