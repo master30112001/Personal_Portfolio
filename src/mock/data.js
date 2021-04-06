@@ -18,8 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'aboutImage.jpeg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne:
+    'I am Vedant Bothikar, a second year computer engineering student at Pune Institute of Computer Technology.',
+  paragraphTwo:
+    'I am passionate about learning new technologies and implementing them in projects. So far, I have been involved in web technologies which I found really interesting and currently I am working on a few projects that helps solve some problems in the society.',
   paragraphThree: '',
   resume: 'https://drive.google.com/file/d/1bUhR8LaXUXz5jyw7ae4tZLMGlZirux5C/view?usp=sharing', // if no resume, the button will not show up
 };
@@ -30,8 +32,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'QuickPermitLogo.jpeg',
     title: 'Quick Permit',
-    info: '',
-    info2: '',
+    info:
+      'The motive behind our project is to have a hassle-free system to seek permissions from college to simplify the otherwise cumbersome process observed. ',
+    info2:
+      'The idea is that students can send permission requests to conduct events in college whereas teachers can approve or reject the requests. Based on this concept there are many other features which have been included.',
     url: 'https://quickpermit.herokuapp.com/',
     repo: 'https://github.com/PermissionProject/Quick-Permit', // if no repo, the button will not show up
   },
