@@ -8,6 +8,9 @@ const Header = () => {
   const { hero } = useContext(PortfolioContext);
   const { title, name, subtitle, cta } = hero;
 
+  const { footer } = useContext(PortfolioContext);
+  const { networks } = footer;
+
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -31,13 +34,32 @@ const Header = () => {
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <p className="hero-cta">
+          {/* <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
                 {cta}
               </Link>
             </span>
-          </p>
+          </p> */}
+          <br />
+          <br />
+          <div className="social-links">
+            {networks &&
+              networks.map((network) => {
+                const { id, name, url } = network;
+                return (
+                  <a
+                    key={id}
+                    href={url}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    aria-label={name}
+                  >
+                    <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                  </a>
+                );
+              })}
+          </div>
         </Fade>
       </Container>
     </section>

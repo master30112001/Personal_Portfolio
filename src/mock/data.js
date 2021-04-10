@@ -61,6 +61,19 @@ export const projectsData = [
   },
 ];
 
+// Education DATA
+export const educationData = [
+  {
+    id: nanoid(),
+    img: 'pictlogo.jpeg',
+    title: 'Pune Institute of Computer Technology',
+    info: '',
+    info2: '',
+    url: 'https://pict.edu/',
+    repo: 'https://github.com/PermissionProject/Quick-Permit', // if no repo, the button will not show up
+  },
+];
+
 // CONTACT DATA
 export const contactData = {
   cta: 'Interested in working with me? Great!',
@@ -89,7 +102,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: 'https://twitter.com/BothikarVedant',
+      url: 'https://twitter.com/VedantBothikar',
     },
   ],
 };
