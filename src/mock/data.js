@@ -67,7 +67,8 @@ export const educationData = [
     id: nanoid(),
     img: 'pictlogo.jpeg',
     title: 'Pune Institute of Computer Technology',
-    info: '',
+    info:
+      'Studying theory and applications of subjects including Object Oriented Programming and Data structures and Algorithms',
     info2: '',
     url: 'https://pict.edu/',
     repo: 'https://github.com/PermissionProject/Quick-Permit', // if no repo, the button will not show up

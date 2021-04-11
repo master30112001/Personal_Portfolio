@@ -43,11 +43,11 @@ const Education = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title}</h3>
                       <div>
-                        <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                        </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <p>2019-2023</p>
+                        <p>Bachelors of Computer Engineering</p>
+                        <br />
+                        <p>{info}</p>
+                        <p className="mb-4">{info2}</p>
                       </div>
                       {/* {url && (
                         <a
