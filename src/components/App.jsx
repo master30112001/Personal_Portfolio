@@ -53,7 +53,5 @@ export default App;
 
 // to do -
 // 1. on mobile it says gatsby simplefolio... remove all names from everywhere ...
-
-// 3. add education
 // 4. add experience
-// 4. add other projects section
+// 5. add other projects section
