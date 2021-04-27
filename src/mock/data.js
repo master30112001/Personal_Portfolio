@@ -30,7 +30,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'QuickPermitLogo.jpeg',
+    img: 'quickPermitDashboard.jpeg',
     title: 'Quick Permit',
     info:
       'The motive behind the project is to have a hassle-free system to seek permissions from college to simplify the otherwise cumbersome process observed. ',
@@ -41,13 +41,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'ChatApp.jpeg',
-    title: 'Real time Web Chat App',
+    img: 'covmeal.jpeg',
+    title: 'CovMeal',
     info:
-      'This is a real time web chat app where users can create or join a specific room and have a chat based discussion.This project helped me to learn about how socket.io works and improved my Node.js skills.',
-    info2: 'Tech stack: Nodejs, Socket.io, HTML, CSS ',
-    url: 'http://bothikarchatapp.herokuapp.com',
-    repo: 'https://github.com/master30112001/node-chat-app', // if no repo, the button will not show up
+      " Our team saw problems like not getting resources to order meals from, thus working on a solution to this issue CovMeal helps connect food service providers with people fighting the Covid-19 virus to get meals delivered so that people don't have to worry for food during quarantine.",
+    info2: 'Tech stack: React.js, Firebases',
+    url: 'http://covmeal.netlify.app',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
