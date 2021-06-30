@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I am passionate about learning new technologies and implementing them in projects. So far, I have been involved in web technologies which I found really interesting and currently I am working on a few projects that helps solve some problems in the society.',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1bUhR8LaXUXz5jyw7ae4tZLMGlZirux5C/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/14odZvBQZFr_0Thw9U9AFCpMJ1AgLc8eg/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -112,3 +112,26 @@ export const footerData = {
 export const githubButtons = {
   isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
+
+/*
+Thank you for providing your support to so many families out there !! 
+Our team recently had a conversation with you,We have added your organization's details on our portal 'CovMeal', Now customers will be able to get details of you providing meal deliveries to patients affected with the Covid-19 virus.
+We expect more and more customers to get connected with you from now onwards.
+
+We request you to share this website as much as possible, so people who aren't aware of from where to order food during quarantine can be benefitted with these resources handy with them.
+http://covmeal.netlify.app
+
+Once again, Thank you for your support !!
+
+
+
+We have seen many people struggling to find restarants providing meals to Covid-19 patients, to provide a helping hand in this situation we have come up with a portal where you can find nearby restaurants that provide meals to such patients. 
+Here you will be able to search for restaurants in your nearby locality that provide these kind of services.
+If you are a food service provider who is servicing for such Covid warriors, do register yourself below.
+
+We request all readers to share this as much as possible, this could help someone in need. 
+http://covmeal.netlify.app
+
+
+
+*/
